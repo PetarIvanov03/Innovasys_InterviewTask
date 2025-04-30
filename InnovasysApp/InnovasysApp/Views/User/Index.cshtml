@@ -1,0 +1,105 @@
+﻿@model List<InnovasysApp.ViewModels.UserViewModel>
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1>Users</h1>
+
+<form asp-action="LoadData" method="post">
+    <button type="submit" class="btn btn-primary">Load Data</button>
+</form>
+
+<br />
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Success"]
+    </div>
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <form asp-action="SaveAll" method="post">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Website</th>
+                    <th>Street</th>
+                    <th>Suite</th>
+                    <th>City</th>
+                    <th>Zipcode</th>
+                    <th>Lat</th>
+                    <th>Lng</th>
+                    <th>Note</th>
+                    <th>Is Active</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    <tr>
+                        <td>
+                            <input type="hidden" name="users[@i].Name" value="@Model[i].Name" />
+                            @Model[i].Name
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Username" value="@Model[i].Username" />
+                            @Model[i].Username
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Email" value="@Model[i].Email" />
+                            @Model[i].Email
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Phone" value="@Model[i].Phone" />
+                            @Model[i].Phone
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Website" value="@Model[i].Website" />
+                            @Model[i].Website
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.Street" value="@Model[i].Address.Street" />
+                            @Model[i].Address.Street
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.Suite" value="@Model[i].Address.Suite" />
+                            @Model[i].Address.Suite
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.City" value="@Model[i].Address.City" />
+                            @Model[i].Address.City
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.Zipcode" value="@Model[i].Address.Zipcode" />
+                            @Model[i].Address.Zipcode
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.Geo.Lat" value="@Model[i].Address.Geo.Lat" />
+                            @Model[i].Address.Geo.Lat
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].Address.Geo.Lng" value="@Model[i].Address.Geo.Lng" />
+                            @Model[i].Address.Geo.Lng
+                        </td>
+                        <td>
+                            <input type="text" name="users[@i].Note" value="@Model[i].Note" class="form-control" />
+                        </td>
+                        <td>
+                            <input type="hidden" name="users[@i].IsActive" value="false" />
+                            <input type="checkbox" name="users[@i].IsActive" value="true"
+                            @(Model[i].IsActive ? "checked" : "") />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <button type="submit" class="btn btn-success">Save All</button>
+    </form>
+}
