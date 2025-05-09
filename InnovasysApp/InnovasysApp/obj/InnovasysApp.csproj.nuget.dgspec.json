@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Side Programming\\For Work\\InovasysApp\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj": {}
+    "D:\\Side Programming\\For Work\\InovasysApp\\Innovasys_InterviewTask\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj": {}
   },
   "projects": {
-    "D:\\Side Programming\\For Work\\InovasysApp\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj": {
+    "D:\\Side Programming\\For Work\\InovasysApp\\Innovasys_InterviewTask\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Side Programming\\For Work\\InovasysApp\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj",
+        "projectUniqueName": "D:\\Side Programming\\For Work\\InovasysApp\\Innovasys_InterviewTask\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj",
         "projectName": "InnovasysApp",
-        "projectPath": "D:\\Side Programming\\For Work\\InovasysApp\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj",
+        "projectPath": "D:\\Side Programming\\For Work\\InovasysApp\\Innovasys_InterviewTask\\InnovasysApp\\InnovasysApp\\InnovasysApp.csproj",
         "packagesPath": "C:\\Users\\Petar Ivanov\\.nuget\\packages\\",
-        "outputPath": "D:\\Side Programming\\For Work\\InovasysApp\\InnovasysApp\\InnovasysApp\\obj\\",
+        "outputPath": "D:\\Side Programming\\For Work\\InovasysApp\\Innovasys_InterviewTask\\InnovasysApp\\InnovasysApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

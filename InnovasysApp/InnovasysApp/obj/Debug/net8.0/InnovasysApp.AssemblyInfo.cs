@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InnovasysApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e3868c61a213802f5e50393a0e18e8039623aa2")]
 [assembly: System.Reflection.AssemblyProductAttribute("InnovasysApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InnovasysApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

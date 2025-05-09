@@ -17,49 +17,49 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = InnovasysApp
 build_property.RootNamespace = InnovasysApp
-build_property.ProjectDir = D:\Side Programming\For Work\InovasysApp\InnovasysApp\InnovasysApp\
+build_property.ProjectDir = D:\Side Programming\For Work\InovasysApp\Innovasys_InterviewTask\InnovasysApp\InnovasysApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Side Programming\For Work\InovasysApp\InnovasysApp\InnovasysApp
+build_property.MSBuildProjectDirectory = D:\Side Programming\For Work\InovasysApp\Innovasys_InterviewTask\InnovasysApp\InnovasysApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/Home/Index.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/Home/Privacy.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/Shared/Error.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/User/All.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/User/All.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/User/Index.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/_ViewImports.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/_ViewStart.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Side Programming/For Work/InovasysApp/InnovasysApp/InnovasysApp/Views/Shared/_Layout.cshtml]
+[D:/Side Programming/For Work/InovasysApp/Innovasys_InterviewTask/InnovasysApp/InnovasysApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-h1nvmezjwb
